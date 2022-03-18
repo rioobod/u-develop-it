@@ -1,3 +1,2 @@
 # u-develop-it
 
-## voting

@@ -11,11 +11,11 @@ app.use(express.json());
 const db = mysql.createConnection(
   {
     host: 'localhost',
-        user: '',
-        password: '',
+        user: ' ',
+        password: ' ',
     database: 'election'
   },
-  console.log('Connected to the election database.')
+  console.log('Connected to the election database')
 );
 
 // Get all candidates
@@ -192,8 +192,6 @@ app.delete('/api/party/:id', (req, res) => {
     }
   });
 });
-
-
 
 
 app.use((req, res) => {
